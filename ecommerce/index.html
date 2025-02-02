@@ -1,54 +1,53 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmácia Naturale</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Inicia o HTML e define o idioma como português (Brasil) -->
+
+<head> <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a exibição em dispositivos móveis -->
+    <title>Farmácia Naturale</title> <!-- Título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <script src="script.js" defer></script> <!-- Link para o arquivo JS (com execução deferida) -->
 </head>
-<body>
-    <!-- Cabeçalho -->
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">Farmácia Naturale</h1>
-            <nav class="nav">
+
+<body> <!-- Corpo do documento -->
+    <header class="header"> <!-- Cabeçalho -->
+        <div class="container"> <!-- Container para centralizar o conteúdo -->
+            <h1 class="logo">Farmácia Naturale</h1> <!-- Logo da farmácia -->
+            <nav class="nav"> <!-- Menu de navegação -->
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#">Início</a></li> <!-- Link para a página inicial -->
+                    <li><a href="#produtos">Produtos</a></li> <!-- Link para a seção de produtos -->
+                    <li><a href="#contato">Contato</a></li> <!-- Link para a seção de contato -->
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Banner -->
-    <section class="banner">
-        <div class="container">
-            <h2>Bem-vindo à Farmácia Naturale</h2>
-            <p>Os melhores produtos para sua saúde e bem-estar.</p>
-            <a href="#produtos" class="btn">Ver Produtos</a>
+    <section class="banner"> <!-- Seção do banner -->
+        <div class="container"> <!-- Container para centralizar o conteúdo -->
+            <h2>Bem-vindo à Farmácia Naturale</h2> <!-- Título do banner -->
+            <p>Os melhores produtos para sua saúde e bem-estar.</p> <!-- Descrição breve -->
+            <a href="#produtos" class="btn">Ver Produtos</a> <!-- Botão para visualizar os produtos -->
         </div>
     </section>
 
-    <!-- Produtos -->
-    <section id="produtos" class="produtos">
+    <section id="produtos" class="produtos"> <!-- Seção de produtos -->
         <div class="container">
-            <h2>Nossos Produtos</h2>
-            <div class="grid">
-                <div class="produto">
-                    <img src="https://via.placeholder.com/150" alt="Produto 1">
-                    <h3>Produto 1</h3>
-                    <p>Descrição breve do produto.</p>
-                    <button>Comprar</button>
+            <h2>Nossos Produtos</h2> <!-- Título da seção -->
+            <div class="grid"> <!-- Grid para exibir os produtos -->
+                <div class="produto"> <!-- Produto 1 -->
+                    <img src="https://via.placeholder.com/150" alt="Produto 1"> <!-- Imagem do produto -->
+                    <h3>Produto 1</h3> <!-- Nome do produto -->
+                    <p>Descrição breve do produto.</p> <!-- Descrição do produto -->
+                    <button>Comprar</button> <!-- Botão para comprar -->
                 </div>
-                <div class="produto">
+                <div class="produto"> <!-- Produto 2 -->
                     <img src="https://via.placeholder.com/150" alt="Produto 2">
                     <h3>Produto 2</h3>
                     <p>Descrição breve do produto.</p>
                     <button>Comprar</button>
                 </div>
-                <div class="produto">
+                <div class="produto"> <!-- Produto 3 -->
                     <img src="https://via.placeholder.com/150" alt="Produto 3">
                     <h3>Produto 3</h3>
                     <p>Descrição breve do produto.</p>
@@ -58,30 +57,29 @@
         </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" class="contato">
+    <section id="contato" class="contato"> <!-- Seção de contato -->
         <div class="container">
-            <h2>Contato</h2>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+            <h2>Contato</h2> <!-- Título da seção de contato -->
+            <form action="#" method="post"> <!-- Formulário de contato -->
+                <label for="nome">Nome:</label> <!-- Rótulo para o campo de nome -->
+                <input type="text" id="nome" name="nome" required> <!-- Campo de entrada para o nome -->
+                
+                <label for="email">E-mail:</label> <!-- Rótulo para o campo de e-mail -->
+                <input type="email" id="email" name="email" required> <!-- Campo de entrada para o e-mail -->
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label> <!-- Rótulo para o campo de mensagem -->
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea> <!-- Área de texto para a mensagem -->
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-                <button type="submit">Enviar</button>
+                <button type="submit">Enviar</button> <!-- Botão para enviar o formulário -->
             </form>
         </div>
     </section>
 
-    <!-- Rodapé -->
-    <footer class="footer">
+    <footer class="footer"> <!-- Rodapé -->
         <div class="container">
-            <p>&copy; 2025 Farmácia Naturale. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Farmácia Naturale. Todos os direitos reservados.</p> <!-- Copyright -->
         </div>
     </footer>
 </body>
+
 </html>
